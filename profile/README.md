@@ -5,10 +5,11 @@
 ### A team of AI Agents, built for one person.
 
 [![License](https://img.shields.io/badge/license-Elastic%20v2-0077B5.svg)](https://github.com/twentytwohundred/.github/blob/main/CONTRIBUTING.md)
-[![Phase](https://img.shields.io/badge/phase-spec%20%2B%20early%20build-orange.svg)](https://2200.ai)
-[![Build in public, eventually](https://img.shields.io/badge/build%20in%20public-eventually-2EA44F.svg)](https://2200.ai)
+[![Phase](https://img.shields.io/badge/phase-spec%20%2B%20early%20build-orange.svg)](https://github.com/twentytwohundred/.github/wiki/03-epic-map)
+[![Decisions](https://img.shields.io/badge/decisions-16%20locked-5319E7.svg)](https://github.com/twentytwohundred/.github/wiki/_Sidebar)
+[![Wiki](https://img.shields.io/badge/wiki-open-2EA44F.svg)](https://github.com/twentytwohundred/.github/wiki)
 
-[**2200.ai**](https://2200.ai) · [hello@2200.ai](mailto:hello@2200.ai)
+[**2200.ai**](https://2200.ai) · [Wiki](https://github.com/twentytwohundred/.github/wiki) · [Vision](https://github.com/twentytwohundred/.github/wiki/01-vision) · [Architecture](https://github.com/twentytwohundred/.github/wiki/02-architecture) · [Epic map](https://github.com/twentytwohundred/.github/wiki/03-epic-map) · [Discussions](https://github.com/twentytwohundred/.github/discussions)
 
 </div>
 
@@ -54,19 +55,30 @@ flowchart LR
 | | |
 |---|---|
 | **License** | [Elastic License v2](https://www.elastic.co/licensing/elastic-license). Source-available. Use, copy, distribute, and create derivative works are permitted; hosting as a managed service to third parties and license-key tampering are prohibited. |
-| **Build in public, eventually** | The project's source, wiki, decision records, and per-epic specs are private during the spec-and-early-build phase. The full commit history surfaces at launch. The work is real and ongoing; the audit trail is being kept for the public reveal. |
+| **Build in public** | The project's [wiki](https://github.com/twentytwohundred/.github/wiki) is open: vision, architecture, sixteen locked decision records, conventions, per-epic specs, prior-art analysis. The runtime source is private during the spec-and-early-build phase; full commit history surfaces at launch. |
 | **Discipline** | Architecture Decision Records for every load-bearing call. Per-epic specs with explicit upgrade-readiness sections. Pattern-lift over code-lift, with attribution. Schema versioning everywhere. State on disk, not in memory. The conventions are documented, applied, and dogfooded. |
 | **Team** | A small seed team of AI Agents and a product lead. The first Agent born on the platform is the launch moment. |
 
-## What you can read today
+## Where to read
 
-This profile and the org-default community files are public:
+The full project knowledge base is open. Read in order:
+
+1. **[Vision](https://github.com/twentytwohundred/.github/wiki/01-vision)** — what 2200 is, who it is for, why it exists. Thirty-second pitch and the longer story.
+2. **[Architecture](https://github.com/twentytwohundred/.github/wiki/02-architecture)** — nine-object model, runtime shape, how [OpenPub](https://github.com/douglashardman/openpub) and [SCUT](https://github.com/douglashardman/openscut) compose underneath. With diagrams.
+3. **[Epic map](https://github.com/twentytwohundred/.github/wiki/03-epic-map)** — nineteen epics with scope, done-when criteria, and dependencies.
+4. **[Seed team](https://github.com/twentytwohundred/.github/wiki/04-seed-team)** — who is building this, how they coordinate, when they migrate.
+
+Then follow the wiki's [sidebar](https://github.com/twentytwohundred/.github/wiki/_Sidebar) into the decision records, conventions, design docs, per-epic specs, and prior-art analysis.
+
+Org-default community files (in this same `.github` repo):
 
 - [SECURITY.md](https://github.com/twentytwohundred/.github/blob/main/SECURITY.md) — the responsible-disclosure path for any 2200 project.
 - [CONTRIBUTING.md](https://github.com/twentytwohundred/.github/blob/main/CONTRIBUTING.md) — the contribution model that opens at launch.
 - [CODE_OF_CONDUCT.md](https://github.com/twentytwohundred/.github/blob/main/CODE_OF_CONDUCT.md) — Contributor Covenant 2.1, adopted org-wide.
 
-The rest opens at launch.
+## Talk
+
+[Discussions](https://github.com/twentytwohundred/.github/discussions) is open for questions, ideas, and feedback. Six default categories (Announcements, General, Ideas, Polls, Q&A, Show and tell) — pick whichever fits.
 
 ## How to follow along
 
