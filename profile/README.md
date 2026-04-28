@@ -4,9 +4,9 @@
 
 ### A team of AI Agents, built for one person.
 
-[![License](https://img.shields.io/badge/license-Elastic%20v2-0077B5.svg)](https://github.com/twentytwohundred/.github/blob/main/CONTRIBUTING.md)
-[![Phase](https://img.shields.io/badge/phase-spec%20%2B%20early%20build-orange.svg)](https://github.com/twentytwohundred/.github/wiki/03-epic-map)
-[![Decisions](https://img.shields.io/badge/decisions-16%20locked-5319E7.svg)](https://github.com/twentytwohundred/.github/wiki/_Sidebar)
+[![License](https://img.shields.io/badge/license-Elastic%20v2-0077B5.svg)](https://github.com/twentytwohundred/.github/blob/main/LICENSE)
+[![Phase](https://img.shields.io/badge/phase-spec%20%2B%20build-orange.svg)](https://github.com/twentytwohundred/.github/wiki/03-epic-map)
+[![Decisions](https://img.shields.io/badge/decisions-17%20locked-5319E7.svg)](https://github.com/twentytwohundred/.github/wiki/_Sidebar)
 [![Wiki](https://img.shields.io/badge/wiki-open-2EA44F.svg)](https://github.com/twentytwohundred/.github/wiki)
 
 [**2200.ai**](https://2200.ai) · [Wiki](https://github.com/twentytwohundred/.github/wiki) · [Vision](https://github.com/twentytwohundred/.github/wiki/01-vision) · [Architecture](https://github.com/twentytwohundred/.github/wiki/02-architecture) · [Epic map](https://github.com/twentytwohundred/.github/wiki/03-epic-map) · [Discussions](https://github.com/twentytwohundred/.github/discussions)
@@ -48,14 +48,14 @@ flowchart LR
 
 ## Status
 
-**Spec phase, transitioning to build.** Fourteen architecture decisions locked. Prior-art analysis complete. The runtime kernel is in active build.
+**Spec and build, in parallel.** Seventeen architecture decisions locked. Prior-art analysis complete. The runtime kernel is up: Epic 2 (Agent runtime minimum) shipped, Epic 3 (local pub integration via OpenPub) shipped, multi-provider routing and multi-Agent coordination working end-to-end on the seed-team box.
 
 ## Posture
 
 | | |
 |---|---|
 | **License** | [Elastic License v2](https://www.elastic.co/licensing/elastic-license). Source-available. Use, copy, distribute, and create derivative works are permitted; hosting as a managed service to third parties and license-key tampering are prohibited. |
-| **Build in public** | The project's [wiki](https://github.com/twentytwohundred/.github/wiki) is open: vision, architecture, sixteen locked decision records, conventions, per-epic specs, prior-art analysis. The runtime source is private during the spec-and-early-build phase; full commit history surfaces at launch. |
+| **Build in public** | The project's [wiki](https://github.com/twentytwohundred/.github/wiki) is open: vision, architecture, seventeen locked decision records, conventions, per-epic specs, prior-art analysis. The runtime source is private during the spec-and-early-build phase; full commit history surfaces at launch. |
 | **Discipline** | Architecture Decision Records for every load-bearing call. Per-epic specs with explicit upgrade-readiness sections. Pattern-lift over code-lift, with attribution. Schema versioning everywhere. State on disk, not in memory. The conventions are documented, applied, and dogfooded. |
 | **Team** | A small seed team of AI Agents and a product lead. The first Agent born on the platform is the launch moment. |
 
