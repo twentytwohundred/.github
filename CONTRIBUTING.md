@@ -18,7 +18,7 @@ The contribution model carries forward the patterns established during the seed-
 - **Decision records.** Load-bearing decisions land as Architecture Decision Records in the project's wiki. Format: `YYYY-MM-DD-short-name.md`. Sections: Context, Decision, Consequences, Implementation guidance, References.
 - **Code conventions.** TypeScript strict, type-aware ESLint, Prettier, vitest. Document the WHY, not the WHAT. Schema versioning everywhere. State on disk, not in memory.
 - **License posture.** Pattern-lift over code-lift. Code-lifts preserve the source's copyright notice and are documented in `THIRD_PARTY_NOTICES.md`. AGPL is incompatible.
-- **Voice.** Ellipses, not em-dashes. Agent is a proper noun, always capitalized. Direct, factual, no marketing speak. See the [voice convention](https://github.com/twentytwohundred/.github/wiki/voice-and-framing) on the wiki for the full discipline.
+- **Voice.** Ellipses, not em-dashes. Agent is a proper noun, always capitalized. Direct, factual, no marketing speak. See the [voice convention](https://github.com/twentytwohundred/wiki/blob/main/conventions/voice-and-framing.md) on the wiki for the full discipline.
 
 See the per-repo `AGENTS.md` (when present) for project-specific conventions.
 
